@@ -4042,15 +4042,31 @@ input, select, textarea {
 		display: none;
 	}
 
+	.tankito-page .wrapper::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-image: url("../../images/menu_bg.png");
+		background-size: 120% auto; /* Hace que la imagen sea un 20% más ancha de lo normal */
+		background-position: center center; /* Centra la imagen de fondo */
+		background-attachment: fixed;
+		filter: blur(5px);
+		z-index: -1;
+	}
+	
+
 	.tankito-page .wrapper::before{
 		content: '';
     	position: absolute;
     	top: 0;
     	left: 0;
-    	width: 150%;
+    	width: 100%;
     	height: 100%;
     	background-image: url("../../images/menu_bg.png");
-    	background-size: cover;
+    	background-size: 130% auto;
     	background-position: center;
 		background-attachment: fixed;
     	filter: blur(5px) brightness(0.7);
