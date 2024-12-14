@@ -3946,7 +3946,7 @@ input, select, textarea {
 			.wrapper {
 				margin: 4.75em 0;
 			}
-
+				/*
 				.wrapper:before, .wrapper:after {
 					height: 4.75em;
 				}
@@ -3958,7 +3958,7 @@ input, select, textarea {
 				.wrapper:after {
 					bottom: -4.75em;
 					left: 0;
-				}
+				}*/
 
 				.wrapper .inner {
 					padding: 3em 3em 1em 3em ;
@@ -3981,7 +3981,7 @@ input, select, textarea {
 			.wrapper {
 				margin: 2.5em 0;
 			}
-
+				/*
 				.wrapper:before, .wrapper:after {
 					height: 2.5em;
 				}
@@ -3993,7 +3993,7 @@ input, select, textarea {
 				.wrapper:after {
 					bottom: -2.5em;
 					left: 0;
-				}
+				}*/
 
 				.wrapper .inner {
 					padding: 2em 2em 0.1em 2em ;
