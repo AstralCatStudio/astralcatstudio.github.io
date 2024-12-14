@@ -3610,8 +3610,20 @@ input, select, textarea {
 			background-position: center,
  0% 30%;
 			margin-bottom: -6.5em;
+			position: fixed;
 		}
 
+		#wrapper > header .tankito-page{
+			padding: 9em 0 6.25em 0 ;
+			background-color: #12123a;
+			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/cover_withoutTitle.png");
+			background-size: auto,
+ cover;
+			background-position: center,
+ 0% 30%;
+			margin-bottom: -6.5em;
+			position: fixed;
+		}
 	}
 
 	@media screen and (max-width: 980px) {
@@ -4053,6 +4065,7 @@ input, select, textarea {
     	background-size: 130% auto;
     	background-position: center;
 		background-attachment: fixed;
+		background-repeat: no-repeat;
     	filter: blur(5px) brightness(0.7);
     	z-index: -1;
 	}
