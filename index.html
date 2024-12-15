@@ -176,12 +176,14 @@
 								<li class="icon brands fa-youtube"><a href="https://www.youtube.com/@astralcat_games"  target="_blank">@astralcat_games</a></li>
 								<li class="icon brands fa-instagram"><a href="https://www.instagram.com/astral_cat_studio/"  target="_blank">@astral_cat_studio</a></li>
 							</ul>
+							<ul class="pressKit" style="display: flex; justify-content: center; padding: 0; margin: 20px 0;">
+								<button class="button" onclick="descargarPDF()">Press Kit</button>
+							</ul>
 							<ul class="copyright">
 								<li>&copy; Astral Cat Studio. All rights reserved.</li><li>Design: <a href="http://html5up.net"  target="_blank">HTML5 UP</a></li>
 							</ul>
 						</div>
 					</section>
-
 			</div>
 
 		<!-- Scripts -->
@@ -191,6 +193,15 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+			<script>
+				function descargarPDF() {
+					const link = document.createElement('a');
+					link.href = './pdfs/pdf_prueba.pdf';
+					link.download = 'tankito_press_kit.pdf';
+					link.click();
+				}
+			</script>
 
 	</body>
 </html>

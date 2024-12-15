@@ -4316,4 +4316,8 @@ input, select, textarea {
     	object-fit: contain; 
 	}
 
+	.pressKit .button{
+		cursor: pointer;
+	}
+
 	
