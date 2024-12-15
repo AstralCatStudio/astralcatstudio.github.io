@@ -4251,8 +4251,17 @@ input, select, textarea {
 	}
 
 	.itemCarrusel{
+		display: none;
 		height: 100%;
 		position: relative;
+	}
+
+	.itemCarrusel:target{
+		display: block;
+	}
+
+	#itemCarrusel-1{
+		display: block;
 	}
 
 	.tarjetaCarrusel{
