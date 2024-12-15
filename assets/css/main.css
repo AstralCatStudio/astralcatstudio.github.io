@@ -4264,12 +4264,26 @@ input, select, textarea {
 		display: block;
 	}
 
+	#itemCarrusel2-1{
+		display: block;
+	}
+
 	.tarjetaCarrusel{
 		height: 100%;
 	}
 
 	.flechasCarrusel{
+		position: absolute;
+		top: 0;
 		height: 100%;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 20px;
+	}
+
+	.flechasCarrusel2{
 		position: absolute;
 		top: 0;
 		height: 100%;
